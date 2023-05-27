@@ -109,17 +109,17 @@ void main() {
 
   // 12th task
   int r = 4;
-  int s = 3;
+  int s = 4;
   int t = 6;
 
-  if(r < s || r < t) {
+  if(r < s && r < t) {
     print(r);
-  } else if(s < r || s < t) {
+  } else if(s < r && s < t) {
     print(s);
-  } else if(t < r || t < s) {
+  } else if(t < r && t < s) {
     print(t);
   } else {
-    print("Error");
+    print("The values are equal");
   }
 
   // 13th task
