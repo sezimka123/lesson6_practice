@@ -27,6 +27,16 @@ void main() {
   int i = 0;
   int j = 5;
   print("$i * $j = ${i*j}");
+  
+//   3rd task
+  int a1 = 1;
+  int b1 = 2;
+
+  a1 = a1 + b1;
+  b1 = a1 - b1;
+  a1 = a1 - b1;
+
+  print("a1 = $a1 and b1 = $b1");
 
   // 4th task
   stdout.write("What is your name? ");
